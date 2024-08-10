@@ -12,9 +12,9 @@ export default function About() {
       transition={{ duration: 1 }}
     >
       {/* Container */}
-      <div className="lg:flex">
+      <div className="lg:flex bg-gradient-to-b from-blu-100 to-red-100  pb-40 md:pb-28 pt-10">
         {/* Text container */}
-        <div className="px-4 sm:px-8 md:px-12 lg:px-20 xl:48 flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-64 w-2/3 lg:w-1/2 lg:pr-0">
+        <div className="px-4 sm:px-8 md:px-12 lg:px-20 xl:lg-48 flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-64 w-3/3 lg:w-1/2 lg:pr-0">
           {/* Biography container*/}
           <div className="flex flex-col gap-12 justify-center">
             <h1 className="font-bold text-2xl ">Biography</h1>
@@ -64,13 +64,13 @@ export default function About() {
             </div>
             </div>
           {/* Experiance container*/}
-          <div className="flex flex-col gap-12 justify-center">
+          <div className="flex flex-col gap-12 justify-cente">
             <h1 className="font-bold text-2xl ">Experiance</h1>
             <div className="">
               <div className="flex justify-between h-48">
                 {/* Left */}
                 <div className="w-1/3 ">
-                  <div className="b-white p-3 font-semibold rounded-b-lg rounded-s-lg">Next js Devloper</div>
+                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">Next js Devloper</div>
                   <div className="p-3 text-sm italic">Now Deloping in Next js Projects and skill developed in this way more.</div>
                   <div className="p-3 text-red-400 text-s font-semibold">2024 presents</div>
                   <div className="px-3 py-1 rounded bg-white text-sm font-semibold">Proffestional</div>
@@ -99,7 +99,7 @@ export default function About() {
                 </div>
                 {/* Right */}
                 <div className="w-1/3">
-                  <div className="b-white p-3 font-semibold rounded-b-lg rounded-s-lg">Reactjs devloper</div>
+                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">Reactjs devloper</div>
                   <div className="p-3 text-sm italic">Now Deloping in Next js Projects and skill developed in this way more.</div>
                   <div className="p-3 text-red-400 text-s font-semibold">2022-2023</div>
                   <div className="px-3 py-1 rounded bg-white text-sm font-semibold">Proffestional</div>
@@ -108,7 +108,7 @@ export default function About() {
               <div className="flex justify-between h-48">
                 {/* Left */}
                 <div className="w-1/3 ">
-                <div className="b-white p-3 font-semibold rounded-b-lg rounded-s-lg">javascript Devloper</div>
+                <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">javascript Devloper</div>
                   <div className="p-3 text-sm italic">Now Deloping in Next js Projects and skill developed in this way more.</div>
                   <div className="p-3 text-red-400 text-s font-semibold">2020-2022</div>
                   <div className="px-3 py-1 rounded bg-white text-sm font-semibold">Proffestional</div>
